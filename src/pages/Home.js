@@ -6,7 +6,7 @@ export default function Home() {
     <Flex h="100vh" w="100%" align="center" justify="center" bgColor="blue.500">
       <Flex direction="column" align="center">
         <img
-          src={require("../assets/clipboard.png")}
+          src={require("../assets/clipboard.png").default}
           alt="Clipboard"
           height="80"
           width="80"
