@@ -3,14 +3,14 @@ import "@firebase/auth";
 import "@firebase/database";
 
 firebase.initializeApp({
-  apiKey: "AIzaSyDdF_lPGpWqOi74w2qQHOiJw9_AX8dMoWs",
-  authDomain: "task-manager-a7241.firebaseapp.com",
-  databaseURL: "https://task-manager-a7241-default-rtdb.firebaseio.com",
-  projectId: "task-manager-a7241",
-  storageBucket: "task-manager-a7241.appspot.com",
-  messagingSenderId: "556838058074",
-  appId: "1:556838058074:web:3fb724315c6fd64020c063",
-  measurementId: "G-KGBKMK9LS0"
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+  databaseURL: process.env.REACT_APP_FIREBASE_DATABASE_URL,
+  projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.REACT_APP_FIREBASE_APP_ID,
+  measurementId: process.env.REACT_APP_FIREBASE_MEASUREMENT_ID,
 });
 
 export const auth = firebase.auth();
