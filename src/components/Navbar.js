@@ -24,7 +24,7 @@ export default function Navbar({ user, authLoading }) {
     >
       <Box as={RRLink} p="2" to="/">
         <img
-          src={require("../assets/clipboard.png")}
+          src={require("../assets/clipboard.png").default}
           alt="Task Manager"
           height="32"
           width="32"
