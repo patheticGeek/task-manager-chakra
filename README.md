@@ -1,2 +1,2 @@
-# task-manager-chakra
-Created with CodeSandbox
+# Task Manager Chakra
+A simple task manager made while learning chakra ui
